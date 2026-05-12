@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="spread">
+        <div id="deck"></div>
+
+        <div class="card hidden" id="card1" onclick="cardClicked('1')">
+            <div class="front" ></div>
+            <div class="back" id="face1"></div>
+        </div>
+        <div class="card hidden" id="card2" onclick="cardClicked('2')">
+            <div class="front" ></div>
+            <div class="back" id="face2"></div>
+        </div>
+        <div class="card hidden" id="card3" onclick="cardClicked('3')">
+            <div class="front" ></div>
+            <div class="back" id="face3"></div>
+        </div>
+        <div class="card hidden" id="card4" onclick="cardClicked('4')">
+            <div class="front" ></div>
+            <div class="back" id="face4"></div>
+        </div>
+
+        <div id="discard">
+            <div class="card flip hidden" id="discardedCard">
+                <div class="front"></div>
+                <div class="back" id="discardedFace"></div>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="dealCards()">deal</button>
+
+    <h2>~ Instructions ~</h2>
+    <h4>1. Click the button to deal four cards.<br>2. If there are two cards of the same suit, click on the one with the lower rank to discard. Aces rank high.<br>3. Repeat until there's no more than one card of each suit.<br>4. Repeat steps 1-3 until either:<br><span class="indent">a) all the aces are on top. You win!</span><br><span class="indent">b) you run through the whole deck without getting all the aces face up on top of the card stacks. You lose.</span><br><br>Refresh the page to start a new game.</h4>
+</body>
+</html>
