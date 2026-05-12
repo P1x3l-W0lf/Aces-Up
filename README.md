@@ -1,5 +1,5 @@
 # Aces-Up
-A very rudimentary version of aces up solitaire. Playable [here](https://P1x3l-W0lf.github.io/Aces-Up).
+A very rudimentary version of aces up solitaire. Playable [here](https://P1x3l-W0lf.github.io/Aces-Up/).
 ## About This Project
 Aces up is a type of solitaire where you remove cards based on certain criteria with the goal of ending the game with all of the aces dealt out and face up. Since my [TADC memory match project](https://github.com/P1x3l-W0lf/TADC-Memory-Match) turned out so well I thought another card game woud be easy to code.
 
